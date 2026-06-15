@@ -1,1 +1,31 @@
-site_name: My Docs
+site_name: Healthcare Contact Center SLM
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: blue grey
+      accent: light blue
+  font:
+    text: Inter
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - toc.integrate
+    - content.tabs.link
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences
+  - tables
+  - toc:
+      permalink: true
+  - attr_list
+
+nav:
+  - Home: index.md

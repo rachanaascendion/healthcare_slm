@@ -1,3 +1,17 @@
+/* Slightly heavier headings for business doc feel */
+h1, h2 { font-weight: 700; }
+
+/* Tighten table styling */
+.md-typeset table:not([class]) th {
+  background-color: #1565C0;
+  color: white;
+}
+
+/* Admonition warning color */
+.md-typeset .admonition.warning {
+  border-left-color: #e65100;
+}
+
 /* ── Comparison table ── */
 .md-typeset table:not([class]) th {
   background-color: #3f51b5;

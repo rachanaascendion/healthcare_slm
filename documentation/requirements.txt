@@ -1,0 +1,17 @@
+# MkDocs core
+mkdocs
+mkdocs-material
+mkdocs>=1.6.0
+
+# Material theme
+mkdocs-material>=9.5.0
+
+# Markdown extensions (bundled with material but pinned for safety)
+pymdown-extensions>=10.7.1
+
+# Emoji support for :green_circle: etc in tables
+# (twemoji is pulled in by mkdocs-material[imaging])
+mkdocs-material[imaging]>=9.5.0
+
+# Optional but recommended for local dev
+watchdog>=4.0.0
