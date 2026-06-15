@@ -1,0 +1,2145 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Healthcare Contact Center SLM</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#healthcare-contact-center-slm" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="Healthcare Contact Center SLM" class="md-header__button md-logo" aria-label="Healthcare Contact Center SLM" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Healthcare Contact Center SLM
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Home
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="light-blue"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Healthcare Contact Center SLM" class="md-nav__button md-logo" aria-label="Healthcare Contact Center SLM" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Healthcare Contact Center SLM
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#business-context" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Business Context
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Business Context">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#industry-challenges" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Industry Challenges
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#business-impact" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Business Impact
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-statement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Statement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#design-inputs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Design Inputs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#constraints" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Constraints
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#platform-goals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Platform Goals
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solution-direction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution Direction
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Architecture
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Architecture">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#solution-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution Overview
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#platform-positioning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Platform Positioning
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#architecture-layers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Architecture Layers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#end-to-end-architecture-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        End-to-End Architecture Diagram
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Workflow
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Workflow">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#stage-1-data-collection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stage 1: Data Collection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stage-2-data-ingestion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stage 2: Data Ingestion
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stage-3-phi-sanitization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stage 3: PHI Sanitization
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stage-4-canonical-data-standardization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stage 4: Canonical Data Standardization
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stage-5-training-dataset-preparation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stage 5: Training Dataset Preparation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stage-6-model-training-and-alignment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stage 6: Model Training and Alignment
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stage-7-knowledge-base-processing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stage 7: Knowledge Base Processing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stage-8-semantic-knowledge-retrieval" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stage 8: Semantic Knowledge Retrieval
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stage-9-evaluation-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stage 9: Evaluation Framework
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stage-10-retrieval-augmented-generation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stage 10: Retrieval-Augmented Generation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stage-11-inference-layer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stage 11: Inference Layer
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stage-12-agent-assist-services" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stage 12: Agent Assist Services
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stage-13-human-in-the-loop-feedback" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stage 13: Human-in-the-Loop Feedback
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stage-14-feedback-dataset" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stage 14: Feedback Dataset
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai-capabilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI Capabilities
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="AI Capabilities">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#call-summarization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Call Summarization
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#intent-detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Intent Detection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entity-extraction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entity Extraction
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#escalation-prediction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Escalation Prediction
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#suggested-responses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Suggested Responses
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#compliance-validation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Compliance Validation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rag-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RAG Framework
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="RAG Framework">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rag-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RAG Overview
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#retrieval-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Retrieval Workflow
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#knowledge-sources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Knowledge Sources
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rag-benefits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RAG Benefits
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#model-lifecycle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Model Lifecycle
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Model Lifecycle">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#training-pipeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Training Pipeline
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preference-alignment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Preference Alignment
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#model-registry" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Model Registry
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#evaluation-gates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Evaluation Gates
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#evaluation-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Evaluation Framework
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Evaluation Framework">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#evaluation-areas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Evaluation Areas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#task-level-metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Task-Level Metrics
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#safety-and-compliance-checks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Safety and Compliance Checks
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deployment-strategy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deployment Strategy
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Deployment Strategy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#deployment-stages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deployment Stages
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#validation-techniques" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Validation Techniques
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#production-readiness-criteria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Production Readiness Criteria
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#business-outcomes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Business Outcomes
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="healthcare-contact-center-slm">Healthcare Contact Center SLM<a class="headerlink" href="#healthcare-contact-center-slm" title="Permanent link">&para;</a></h1>
+<hr />
+<h2 id="business-context">Business Context<a class="headerlink" href="#business-context" title="Permanent link">&para;</a></h2>
+<h3 id="industry-challenges">Industry Challenges<a class="headerlink" href="#industry-challenges" title="Permanent link">&para;</a></h3>
+<p>Healthcare contact centers serve as a critical engagement channel between healthcare organizations and their members, providers, and patients. These interactions involve complex policy inquiries, claims questions, benefit explanations, prior authorizations, and care-related guidance.</p>
+<p>Customer service representatives must rapidly navigate large volumes of documentation, operational procedures, and regulatory requirements while delivering accurate and compliant responses — all while managing high interaction volumes and member expectations.</p>
+<h3 id="business-impact">Business Impact<a class="headerlink" href="#business-impact" title="Permanent link">&para;</a></h3>
+<p>Operational inefficiencies in healthcare contact centers create measurable downstream effects:</p>
+<table>
+<thead>
+<tr>
+<th>Challenge</th>
+<th>Business Impact</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Long Average Handle Times</td>
+<td>Increased operational cost per interaction</td>
+</tr>
+<tr>
+<td>Knowledge fragmentation</td>
+<td>Inconsistent responses across agents</td>
+</tr>
+<tr>
+<td>Manual summarization</td>
+<td>Wasted agent time on non-value activities</td>
+</tr>
+<tr>
+<td>Escalation delays</td>
+<td>Reduced member satisfaction</td>
+</tr>
+<tr>
+<td>Compliance gaps</td>
+<td>Regulatory risk and audit exposure</td>
+</tr>
+<tr>
+<td>High onboarding effort</td>
+<td>Slower agent productivity ramp</td>
+</tr>
+</tbody>
+</table>
+<h3 id="problem-statement">Problem Statement<a class="headerlink" href="#problem-statement" title="Permanent link">&para;</a></h3>
+<p>Healthcare contact centers face several compounding operational challenges that traditional tooling does not adequately address:</p>
+<ul>
+<li><strong>Long Average Handle Times (AHT)</strong> driven by fragmented knowledge retrieval</li>
+<li><strong>Knowledge scattered across multiple systems</strong> requiring agents to context-switch constantly</li>
+<li><strong>Inconsistent agent responses</strong> creating compliance and satisfaction risks</li>
+<li><strong>Manual call summarization</strong> consuming agent time post-interaction</li>
+<li><strong>Escalation identification delays</strong> that reduce first-call resolution rates</li>
+<li><strong>Regulatory and compliance risks</strong> from unvalidated agent responses</li>
+<li><strong>Limited reuse of historical interaction intelligence</strong></li>
+<li><strong>High onboarding effort</strong> for new agents unfamiliar with domain policies</li>
+</ul>
+<p>Traditional contact center tooling focuses primarily on workflow management and ticket handling, rather than intelligent assistance and decision support.</p>
+<h3 id="design-inputs">Design Inputs<a class="headerlink" href="#design-inputs" title="Permanent link">&para;</a></h3>
+<p>The platform design is informed by the following inputs:</p>
+<ul>
+<li>Contact center operational data and interaction transcripts</li>
+<li>Existing knowledge repositories, policy documents, and SOPs</li>
+<li>Regulatory and compliance requirements specific to healthcare operations</li>
+<li>Agent workflow patterns and common interaction types</li>
+<li>Historical escalation data and resolution outcomes</li>
+<li>Member feedback and satisfaction signals</li>
+</ul>
+<h3 id="constraints">Constraints<a class="headerlink" href="#constraints" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Constraint</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Regulatory compliance</td>
+<td>All data handling must conform to applicable healthcare privacy regulations</td>
+</tr>
+<tr>
+<td>PHI protection</td>
+<td>No personally identifiable health information may enter model training without sanitization</td>
+</tr>
+<tr>
+<td>Response accuracy</td>
+<td>Model outputs must be grounded in verified enterprise knowledge</td>
+</tr>
+<tr>
+<td>Latency</td>
+<td>Real-time agent assist requires low-latency inference</td>
+</tr>
+<tr>
+<td>Human oversight</td>
+<td>All AI suggestions remain subject to agent review and approval</td>
+</tr>
+<tr>
+<td>Data residency</td>
+<td>Healthcare data must remain within designated secure boundaries</td>
+</tr>
+</tbody>
+</table>
+<h3 id="platform-goals">Platform Goals<a class="headerlink" href="#platform-goals" title="Permanent link">&para;</a></h3>
+<p>The Healthcare Contact Center SLM initiative aims to:</p>
+<ul>
+<li>Reduce Average Handle Time (AHT)</li>
+<li>Improve First Call Resolution (FCR)</li>
+<li>Accelerate agent onboarding</li>
+<li>Improve response consistency across agents</li>
+<li>Enhance regulatory compliance adherence</li>
+<li>Reduce manual documentation and summarization effort</li>
+<li>Improve customer satisfaction scores</li>
+<li>Establish a continuously learning AI ecosystem grounded in operational feedback</li>
+</ul>
+<h3 id="solution-direction">Solution Direction<a class="headerlink" href="#solution-direction" title="Permanent link">&para;</a></h3>
+<p>The platform takes a domain-specialization approach: rather than relying on a general-purpose large language model for all tasks, the solution trains and aligns a smaller, domain-specific model purpose-built for healthcare contact center operations. This is combined with Retrieval-Augmented Generation (RAG) to ground all responses in verified enterprise knowledge, and a human feedback loop to continuously improve quality over time.</p>
+<hr />
+<h2 id="architecture">Architecture<a class="headerlink" href="#architecture" title="Permanent link">&para;</a></h2>
+<h3 id="solution-overview">Solution Overview<a class="headerlink" href="#solution-overview" title="Permanent link">&para;</a></h3>
+<p>Healthcare Contact Center SLM combines the following capabilities into a unified intelligence platform:</p>
+<ul>
+<li><strong>Domain-specific language models</strong> trained on healthcare contact center data</li>
+<li><strong>Retrieval-Augmented Generation (RAG)</strong> for knowledge-grounded responses</li>
+<li><strong>Enterprise knowledge retrieval</strong> across policies, SOPs, and FAQs</li>
+<li><strong>Agent assistance services</strong> surfaced at the point of interaction</li>
+<li><strong>Human feedback loops</strong> for continuous quality improvement</li>
+<li><strong>Model optimization cycles</strong> driven by operational outcomes</li>
+</ul>
+<h3 id="platform-positioning">Platform Positioning<a class="headerlink" href="#platform-positioning" title="Permanent link">&para;</a></h3>
+<p>The platform is positioned as an <strong>augmentation layer</strong> on top of existing contact center infrastructure. It does not replace agent workflows — it enhances them by providing real-time intelligence, contextual guidance, and automated assistance at every stage of an interaction.</p>
+<div class="highlight"><pre><span></span><code>Existing Contact Center Infrastructure
+         ↓
+Healthcare Contact Center SLM (augmentation layer)
+         ↓
+Agent Desktop — AI-assisted interactions
+</code></pre></div>
+<h3 id="architecture-layers">Architecture Layers<a class="headerlink" href="#architecture-layers" title="Permanent link">&para;</a></h3>
+<p>The platform is organized into four major functional layers:</p>
+<table>
+<thead>
+<tr>
+<th>Layer</th>
+<th>Responsibility</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Data Processing Layer</strong></td>
+<td>Ingestion, governance, sanitization, and preparation of healthcare data</td>
+</tr>
+<tr>
+<td><strong>AI Training Layer</strong></td>
+<td>Model training, alignment, evaluation, and versioning</td>
+</tr>
+<tr>
+<td><strong>Knowledge &amp; Inference Layer</strong></td>
+<td>Retrieval, generation, and real-time AI service delivery</td>
+</tr>
+<tr>
+<td><strong>Feedback Layer</strong></td>
+<td>Human feedback capture and dataset preparation for future improvement</td>
+</tr>
+</tbody>
+</table>
+<h3 id="end-to-end-architecture-diagram">End-to-End Architecture Diagram<a class="headerlink" href="#end-to-end-architecture-diagram" title="Permanent link">&para;</a></h3>
+<p>The diagram below represents the full platform architecture from data sources through to the feedback dataset.</p>
+<p><img alt="Healthcare Contact Center SLM Architecture" src="images/slm.png" /></p>
+<p>The architecture follows two parallel tracks that converge at the RAG and inference layers:</p>
+<ul>
+<li><strong>Training track</strong> — transforms conversation data into fine-tuned, domain-adapted models</li>
+<li><strong>Knowledge track</strong> — converts enterprise documents into a searchable semantic knowledge store</li>
+</ul>
+<p>Both tracks feed the RAG orchestration layer, which constructs grounded prompts for the inference model. The resulting AI outputs are reviewed by human agents, and their feedback is captured to improve future model versions.</p>
+<hr />
+<h2 id="workflow">Workflow<a class="headerlink" href="#workflow" title="Permanent link">&para;</a></h2>
+<h3 id="stage-1-data-collection">Stage 1: Data Collection<a class="headerlink" href="#stage-1-data-collection" title="Permanent link">&para;</a></h3>
+<p><strong>Objective:</strong> Collect the structured and unstructured information required for training, retrieval, and inference.</p>
+<p><strong>Sources:</strong></p>
+<ul>
+<li>Customer conversations and contact center interaction records</li>
+<li>CRM system exports</li>
+<li>Policy documents and knowledge repositories</li>
+<li>Claims system records</li>
+<li>Member information systems</li>
+<li>Synthetic datasets for low-coverage scenarios</li>
+<li>Public healthcare datasets for domain pre-training</li>
+</ul>
+<p><strong>Outcome:</strong> A centralized collection of conversation and knowledge assets ready for downstream processing.</p>
+<hr />
+<h3 id="stage-2-data-ingestion">Stage 2: Data Ingestion<a class="headerlink" href="#stage-2-data-ingestion" title="Permanent link">&para;</a></h3>
+<p><strong>Objective:</strong> Bring information from multiple enterprise systems into a unified platform.</p>
+<p><strong>Activities:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Activity</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Data acquisition</td>
+<td>Pull from source systems via batch, streaming, or file upload</td>
+</tr>
+<tr>
+<td>Data validation</td>
+<td>Check format integrity, completeness, and schema conformance</td>
+</tr>
+<tr>
+<td>Metadata enrichment</td>
+<td>Tag records with source, timestamp, type, and interaction context</td>
+</tr>
+<tr>
+<td>Storage and governance</td>
+<td>Route to secure storage with appropriate access controls</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Outcome:</strong> Raw datasets available for downstream compliance validation and processing.</p>
+<hr />
+<h3 id="stage-3-phi-sanitization">Stage 3: PHI Sanitization<a class="headerlink" href="#stage-3-phi-sanitization" title="Permanent link">&para;</a></h3>
+<p><strong>Objective:</strong> Protect sensitive healthcare information and ensure regulatory compliance before any data enters training or inference pipelines.</p>
+<p><strong>Protected Information Categories:</strong></p>
+<ul>
+<li>Patient and member names</li>
+<li>Member identifiers and account numbers</li>
+<li>Phone numbers and email addresses</li>
+<li>Medical record numbers</li>
+<li>Physical addresses</li>
+<li>Date-of-birth and other demographic identifiers</li>
+</ul>
+<p><strong>Sanitization Pipeline:</strong></p>
+<div class="highlight"><pre><span></span><code>Raw data
+   ↓
+Rule-based detection (regex patterns, known formats)
+   ↓
+Automated scan (ML-based PHI detection)
+   ↓
+Human review (high-risk records)
+   ↓
+Approved data store (tagged: phi_verified=true)
+</code></pre></div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Any record that fails PHI verification at any stage is <strong>rejected entirely</strong> — it is never patched or partially sanitized and passed downstream.</p>
+</div>
+<p><strong>Outcome:</strong> Compliant datasets suitable for AI training and operational use.</p>
+<hr />
+<h3 id="stage-4-canonical-data-standardization">Stage 4: Canonical Data Standardization<a class="headerlink" href="#stage-4-canonical-data-standardization" title="Permanent link">&para;</a></h3>
+<p><strong>Objective:</strong> Normalize data originating from different source systems into a common enterprise format that all downstream components can consume without additional transformation.</p>
+<p><strong>Standardized Schema Components:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>conversation_id</code></td>
+<td>Unique identifier for the interaction</td>
+</tr>
+<tr>
+<td><code>messages</code></td>
+<td>Ordered list of customer and agent turns</td>
+</tr>
+<tr>
+<td><code>metadata</code></td>
+<td>Source system, timestamp, channel, agent ID</td>
+</tr>
+<tr>
+<td><code>labels</code></td>
+<td>Pre-existing classification tags if available</td>
+</tr>
+<tr>
+<td><code>annotations</code></td>
+<td>Human-provided quality or intent annotations</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Before standardization</strong> — each source system uses a different structure:</p>
+<div class="highlight"><pre><span></span><code><span class="c1">// Genesys</span>
+<span class="p">{</span><span class="w"> </span><span class="nt">&quot;callId&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;123&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;transcript&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="err">...</span><span class="p">]</span><span class="w"> </span><span class="p">}</span>
+
+<span class="c1">// CRM</span>
+<span class="p">{</span><span class="w"> </span><span class="nt">&quot;ticketId&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;123&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;conversation&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="err">...</span><span class="p">]</span><span class="w"> </span><span class="p">}</span>
+</code></pre></div>
+<p><strong>After standardization</strong> — unified format:</p>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;conversation_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;123&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;messages&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;role&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;customer&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;text&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;I received a bill for an MRI.&quot;</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;role&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;agent&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;text&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Let me look that up for you.&quot;</span><span class="w"> </span><span class="p">}</span>
+<span class="w">  </span><span class="p">],</span>
+<span class="w">  </span><span class="nt">&quot;metadata&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;source&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;genesys&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;timestamp&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2024-01-15T10:23:00Z&quot;</span><span class="w"> </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<p><strong>Outcome:</strong> Standardized datasets consumable across the entire platform without per-source adapters.</p>
+<hr />
+<h3 id="stage-5-training-dataset-preparation">Stage 5: Training Dataset Preparation<a class="headerlink" href="#stage-5-training-dataset-preparation" title="Permanent link">&para;</a></h3>
+<p><strong>Objective:</strong> Generate high-quality, task-specific training datasets for each AI capability.</p>
+<p><strong>Supported Tasks and Example Structures:</strong></p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:6"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><input id="__tabbed_1_5" name="__tabbed_1" type="radio" /><input id="__tabbed_1_6" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Call Summarization</label><label for="__tabbed_1_2">Intent Detection</label><label for="__tabbed_1_3">Entity Extraction</label><label for="__tabbed_1_4">Agent Response Generation</label><label for="__tabbed_1_5">Escalation Prediction</label><label for="__tabbed_1_6">Compliance Validation</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><strong>Input:</strong> Full de-identified conversation transcript</p>
+<p><strong>Output:</strong>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;reason&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Member disputing MRI bill&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;resolution&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Prior auth review initiated&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;sentiment&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;frustrated&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;action_items&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;Submit retroactive prior auth&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Follow up in 5 days&quot;</span><span class="p">],</span>
+<span class="w">  </span><span class="nt">&quot;policy_refs&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;PA-IMG-001&quot;</span><span class="p">]</span>
+<span class="p">}</span>
+</code></pre></div>
+<strong>Target size:</strong> 5,000–10,000 examples</p>
+</div>
+<div class="tabbed-block">
+<p><strong>Input:</strong> Conversation transcript or opening customer utterance</p>
+<p><strong>Output:</strong>
+<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="w"> </span><span class="nt">&quot;intent&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;billing_dispute&quot;</span><span class="w"> </span><span class="p">}</span>
+</code></pre></div>
+<strong>Target size:</strong> 2,000–5,000 examples per intent across ~30 intent categories</p>
+</div>
+<div class="tabbed-block">
+<p><strong>Input:</strong> Conversation transcript</p>
+<p><strong>Output:</strong>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;entities&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;member_id&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;value&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;[MEMBER_ID]&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;span&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="mi">12</span><span class="p">,</span><span class="w"> </span><span class="mi">20</span><span class="p">]</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;claim_number&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;value&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;[CLAIM_ID]&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;span&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="mi">45</span><span class="p">,</span><span class="w"> </span><span class="mi">53</span><span class="p">]</span><span class="w"> </span><span class="p">}</span>
+<span class="w">  </span><span class="p">]</span>
+<span class="p">}</span>
+</code></pre></div>
+<strong>Target size:</strong> 3,000–5,000 examples</p>
+</div>
+<div class="tabbed-block">
+<p><strong>Input:</strong> Transcript + retrieved KB context chunks</p>
+<p><strong>Output:</strong> Suggested agent reply grounded in retrieved policy</p>
+<p><strong>Target size:</strong> 10,000–20,000 examples (highest-value task)</p>
+</div>
+<div class="tabbed-block">
+<p><strong>Input:</strong> Conversation transcript</p>
+<p><strong>Output:</strong>
+<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="w"> </span><span class="nt">&quot;escalation_risk&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;high&quot;</span><span class="w"> </span><span class="p">}</span>
+</code></pre></div>
+<strong>Target size:</strong> 3,000–5,000 examples, balanced classes</p>
+</div>
+<div class="tabbed-block">
+<p><strong>Input:</strong> Proposed agent response draft</p>
+<p><strong>Output:</strong>
+<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="w"> </span><span class="nt">&quot;violates&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;reason&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;References specific dollar amount without prior auth confirmation&quot;</span><span class="w"> </span><span class="p">}</span>
+</code></pre></div>
+<strong>Target size:</strong> 2,000–3,000 examples</p>
+</div>
+</div>
+</div>
+<p><strong>Dataset activities:</strong></p>
+<ul>
+<li>Structured example generation per task</li>
+<li>Length and format validation (50–4,096 tokens)</li>
+<li>Deduplication using similarity-based methods</li>
+<li>80 / 10 / 10 stratified train / val / test split</li>
+<li>Synthetic augmentation for tasks with fewer than 500 real examples</li>
+</ul>
+<p><strong>Outcome:</strong> Production-ready training datasets stored in secure, versioned storage.</p>
+<hr />
+<h3 id="stage-6-model-training-and-alignment">Stage 6: Model Training and Alignment<a class="headerlink" href="#stage-6-model-training-and-alignment" title="Permanent link">&para;</a></h3>
+<p><strong>Objective:</strong> Create healthcare-specialized language models optimized for contact-center operations.</p>
+<p><strong>Training Approach:</strong></p>
+<p>The training pipeline uses parameter-efficient fine-tuning to adapt a general-purpose base language model to the healthcare contact center domain. This approach significantly reduces compute requirements compared to full fine-tuning while achieving strong domain-specific performance.</p>
+<p><strong>Training Stages:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Supervised Fine-Tuning (SFT)</td>
+<td>Train on task-specific examples with gold-standard outputs</td>
+</tr>
+<tr>
+<td>Preference Alignment</td>
+<td>Optimize for response quality, tone, and policy adherence using human-preference signal</td>
+</tr>
+<tr>
+<td>Quantization</td>
+<td>Compress the model for efficient inference without significant quality loss</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Key training configuration principles:</strong></p>
+<ul>
+<li>All attention and feed-forward projection layers are targeted for adaptation</li>
+<li>Sample packing is used to maximize GPU utilization</li>
+<li>Training inputs (user turns) are excluded from the loss to prevent the model from learning to generate user queries</li>
+<li>Validation loss is monitored at regular intervals; training stops early if improvement plateaus</li>
+</ul>
+<p><strong>Goals:</strong></p>
+<ul>
+<li>Healthcare terminology and policy understanding</li>
+<li>Contact-center workflow awareness</li>
+<li>Improved response quality and tone</li>
+<li>Reduced hallucination rate</li>
+</ul>
+<p><strong>Outcome:</strong> Healthcare-focused language models ready for evaluation and deployment.</p>
+<hr />
+<h3 id="stage-7-knowledge-base-processing">Stage 7: Knowledge Base Processing<a class="headerlink" href="#stage-7-knowledge-base-processing" title="Permanent link">&para;</a></h3>
+<p><strong>Objective:</strong> Convert enterprise knowledge into a structured, searchable intelligence repository.</p>
+<p><strong>Knowledge Sources:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Source Type</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Policies</td>
+<td>Coverage policies, prior authorization requirements</td>
+</tr>
+<tr>
+<td>Standard operating procedures</td>
+<td>Claims handling, escalation protocols</td>
+</tr>
+<tr>
+<td>FAQs</td>
+<td>Common member questions and standard answers</td>
+</tr>
+<tr>
+<td>Knowledge articles</td>
+<td>Benefit explanations, network information</td>
+</tr>
+<tr>
+<td>Operational guidelines</td>
+<td>Compliance rules, response standards</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Processing Activities:</strong></p>
+<div class="highlight"><pre><span></span><code>Raw documents
+      ↓
+Document parsing and cleaning
+      ↓
+Content chunking (512-token segments with overlap)
+      ↓
+Metadata enrichment (source, category, effective date)
+      ↓
+Knowledge index
+</code></pre></div>
+<p><strong>Outcome:</strong> A structured enterprise knowledge repository ready for semantic search.</p>
+<hr />
+<h3 id="stage-8-semantic-knowledge-retrieval">Stage 8: Semantic Knowledge Retrieval<a class="headerlink" href="#stage-8-semantic-knowledge-retrieval" title="Permanent link">&para;</a></h3>
+<p><strong>Objective:</strong> Enable intelligent, meaning-based search across enterprise knowledge.</p>
+<p><strong>Activities:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Activity</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Knowledge representation</td>
+<td>Convert document chunks into dense semantic vectors</td>
+</tr>
+<tr>
+<td>Semantic indexing</td>
+<td>Store vectors in a high-performance index for similarity search</td>
+</tr>
+<tr>
+<td>Similarity search</td>
+<td>Retrieve the most relevant chunks for a given query</td>
+</tr>
+<tr>
+<td>Context retrieval</td>
+<td>Return ranked, relevant context for prompt construction</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Benefits:</strong></p>
+<ul>
+<li>Agents receive information relevant to the specific member situation, not just keyword matches</li>
+<li>Reduces dependency on agent memory and manual document search</li>
+<li>Supports accurate, policy-grounded responses</li>
+</ul>
+<p><strong>Outcome:</strong> A searchable knowledge foundation that powers the RAG layer.</p>
+<hr />
+<h3 id="stage-9-evaluation-framework">Stage 9: Evaluation Framework<a class="headerlink" href="#stage-9-evaluation-framework" title="Permanent link">&para;</a></h3>
+<p><strong>Objective:</strong> Validate model quality, retrieval accuracy, safety, compliance, and business effectiveness before any deployment decision.</p>
+<p>See the <a href="#evaluation-framework">Evaluation Framework</a> section for full details on metrics and evaluation gates.</p>
+<p><strong>Outcome:</strong> A deployment readiness assessment covering all evaluation dimensions.</p>
+<hr />
+<h3 id="stage-10-retrieval-augmented-generation">Stage 10: Retrieval-Augmented Generation<a class="headerlink" href="#stage-10-retrieval-augmented-generation" title="Permanent link">&para;</a></h3>
+<p><strong>Objective:</strong> Provide domain-grounded responses by combining enterprise knowledge retrieval with language model generation.</p>
+<p><strong>RAG Workflow:</strong></p>
+<div class="highlight"><pre><span></span><code>1. Receive agent query or live conversation context
+2. Understand query intent
+3. Embed query into semantic vector space
+4. Retrieve top-k relevant knowledge chunks from the index
+5. Assemble retrieved context into prompt
+6. Generate response using the fine-tuned model
+7. Validate response for compliance
+8. Surface result to agent
+</code></pre></div>
+<p><strong>Prompt structure:</strong></p>
+<div class="highlight"><pre><span></span><code>System: You are a healthcare contact center assistant. Use only the retrieved context below to answer.
+
+Retrieved context:
+[Policy chunk 1]
+[Policy chunk 2]
+
+Conversation:
+[Current transcript]
+
+Task: [summarize / suggest reply / detect intent / ...]
+</code></pre></div>
+<p>See the <a href="#rag-framework">RAG Framework</a> section for full details.</p>
+<p><strong>Outcome:</strong> Context-aware, enterprise-grounded responses with significantly reduced hallucination risk.</p>
+<hr />
+<h3 id="stage-11-inference-layer">Stage 11: Inference Layer<a class="headerlink" href="#stage-11-inference-layer" title="Permanent link">&para;</a></h3>
+<p><strong>Objective:</strong> Serve trained models for real-time business operations at production scale.</p>
+<p><strong>Responsibilities:</strong></p>
+<ul>
+<li>Request intake and routing</li>
+<li>Prompt construction and model invocation</li>
+<li>Response generation and formatting</li>
+<li>Rate limiting, authentication, and access control</li>
+</ul>
+<p><strong>Service characteristics:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Characteristic</th>
+<th>Target</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Time to first token (TTFT)</td>
+<td>&lt; 300ms</td>
+</tr>
+<tr>
+<td>Time per output token</td>
+<td>&lt; 30ms</td>
+</tr>
+<tr>
+<td>Availability</td>
+<td>High availability with redundancy</td>
+</tr>
+<tr>
+<td>Security</td>
+<td>Authenticated access, no PHI in logs</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Outcome:</strong> Production-ready AI services accessible to agent assist consumers.</p>
+<hr />
+<h3 id="stage-12-agent-assist-services">Stage 12: Agent Assist Services<a class="headerlink" href="#stage-12-agent-assist-services" title="Permanent link">&para;</a></h3>
+<p><strong>Objective:</strong> Provide AI-powered assistance to customer service representatives at the point of interaction.</p>
+<p>Full details in the <a href="#ai-capabilities">AI Capabilities</a> section.</p>
+<table>
+<thead>
+<tr>
+<th>Capability</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Call summarization</td>
+<td>Structured summary generated automatically at end of call</td>
+</tr>
+<tr>
+<td>Intent detection</td>
+<td>Real-time classification of customer objective</td>
+</tr>
+<tr>
+<td>Entity extraction</td>
+<td>Extraction of member IDs, claim numbers, ICD codes</td>
+</tr>
+<tr>
+<td>Escalation prediction</td>
+<td>Predicted likelihood that interaction will require escalation</td>
+</tr>
+<tr>
+<td>Suggested responses</td>
+<td>Context-aware reply recommendations</td>
+</tr>
+<tr>
+<td>Compliance validation</td>
+<td>Validation of proposed response against organizational policy</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Outcome:</strong> AI-assisted customer-service operations with reduced workload and improved consistency.</p>
+<hr />
+<h3 id="stage-13-human-in-the-loop-feedback">Stage 13: Human-in-the-Loop Feedback<a class="headerlink" href="#stage-13-human-in-the-loop-feedback" title="Permanent link">&para;</a></h3>
+<p><strong>Objective:</strong> Capture expert agent feedback for quality assurance and future model improvement.</p>
+<p><strong>Agent Actions:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Accept</strong></td>
+<td>AI suggestion was used as-is — positive signal</td>
+</tr>
+<tr>
+<td><strong>Edit</strong></td>
+<td>AI suggestion was partially correct — modified before use</td>
+</tr>
+<tr>
+<td><strong>Reject</strong></td>
+<td>AI suggestion was not suitable — negative signal</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Why this matters:</strong></p>
+<p>Agent feedback is the highest-quality signal available for understanding model performance in production. Accepted responses become "chosen" training examples; rejected responses become "hard negatives" for preference alignment.</p>
+<p><strong>Outcome:</strong> A continuous stream of labeled production feedback for model improvement.</p>
+<hr />
+<h3 id="stage-14-feedback-dataset">Stage 14: Feedback Dataset<a class="headerlink" href="#stage-14-feedback-dataset" title="Permanent link">&para;</a></h3>
+<p><strong>Objective:</strong> Collect and organize operational feedback into structured datasets for future training and alignment cycles.</p>
+<p><strong>Dataset Structure:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Accepted responses (chosen)</td>
+<td>High-quality examples the model should learn to replicate</td>
+</tr>
+<tr>
+<td>Rejected responses (hard negatives)</td>
+<td>Failure cases the model should learn to avoid</td>
+</tr>
+<tr>
+<td>Edited responses</td>
+<td>Partially correct examples that reveal model weaknesses</td>
+</tr>
+</tbody>
+</table>
+<p>The feedback dataset is the terminal point of each interaction cycle. It feeds back into the training pipeline during scheduled retraining cycles to continuously improve model quality.</p>
+<hr />
+<h2 id="ai-capabilities">AI Capabilities<a class="headerlink" href="#ai-capabilities" title="Permanent link">&para;</a></h2>
+<h3 id="call-summarization">Call Summarization<a class="headerlink" href="#call-summarization" title="Permanent link">&para;</a></h3>
+<p>Automatically generates a structured JSON summary of a completed customer interaction.</p>
+<p><strong>Input:</strong> Full de-identified conversation transcript</p>
+<p><strong>Output fields:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>reason</code></td>
+<td>Primary reason for the member's contact</td>
+</tr>
+<tr>
+<td><code>resolution</code></td>
+<td>Outcome or action taken during the interaction</td>
+</tr>
+<tr>
+<td><code>sentiment</code></td>
+<td>Inferred member sentiment (positive / neutral / frustrated)</td>
+</tr>
+<tr>
+<td><code>action_items</code></td>
+<td>List of follow-up actions required</td>
+</tr>
+<tr>
+<td><code>policy_refs</code></td>
+<td>Relevant policy identifiers referenced</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Business value:</strong> Eliminates manual after-call work, reduces AHT, and creates a consistent record of every interaction.</p>
+<hr />
+<h3 id="intent-detection">Intent Detection<a class="headerlink" href="#intent-detection" title="Permanent link">&para;</a></h3>
+<p>Identifies the customer's primary objective and classifies the interaction type in real time.</p>
+<p><strong>Supported intent categories include:</strong></p>
+<ul>
+<li>Billing inquiry</li>
+<li>Claims status</li>
+<li>Prior authorization</li>
+<li>Benefit explanation</li>
+<li>Provider network query</li>
+<li>Escalation request</li>
+<li>Enrollment and eligibility</li>
+</ul>
+<p><strong>Evaluation metric:</strong> Macro F1 across all intent classes</p>
+<p><strong>Business value:</strong> Enables intelligent routing, real-time agent coaching, and interaction analytics.</p>
+<hr />
+<h3 id="entity-extraction">Entity Extraction<a class="headerlink" href="#entity-extraction" title="Permanent link">&para;</a></h3>
+<p>Extracts structured healthcare and business-critical entities from conversation transcripts.</p>
+<p><strong>Entity types:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Entity Type</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Member identifier</td>
+<td><code>[MEMBER_ID]</code></td>
+</tr>
+<tr>
+<td>Claim number</td>
+<td><code>[CLAIM_ID]</code></td>
+</tr>
+<tr>
+<td>ICD code</td>
+<td><code>[ICD_CODE]</code></td>
+</tr>
+<tr>
+<td>Drug name</td>
+<td><code>[DRUG_NAME]</code></td>
+</tr>
+<tr>
+<td>Date of service</td>
+<td><code>[DATE]</code></td>
+</tr>
+<tr>
+<td>Provider NPI</td>
+<td><code>[NPI]</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Evaluation metric:</strong> Span F1 (strict and partial match)</p>
+<p><strong>Business value:</strong> Reduces manual data entry, improves CRM population accuracy, and enables downstream automation.</p>
+<hr />
+<h3 id="escalation-prediction">Escalation Prediction<a class="headerlink" href="#escalation-prediction" title="Permanent link">&para;</a></h3>
+<p>Predicts the likelihood that a given interaction will require supervisory intervention, enabling proactive management.</p>
+<p><strong>Output:</strong>
+<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="w"> </span><span class="nt">&quot;escalation_risk&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;high&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;confidence&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.87</span><span class="w"> </span><span class="p">}</span>
+</code></pre></div></p>
+<p><strong>Evaluation metric:</strong> AUROC, Precision at 80% Recall</p>
+<p><strong>Business value:</strong> Reduces escalation response time, improves supervisor allocation, and helps identify systemic service failure patterns.</p>
+<hr />
+<h3 id="suggested-responses">Suggested Responses<a class="headerlink" href="#suggested-responses" title="Permanent link">&para;</a></h3>
+<p>Provides context-aware response recommendations to agents during live interactions, grounded in retrieved enterprise knowledge.</p>
+<p><strong>Response characteristics:</strong></p>
+<ul>
+<li>Grounded exclusively in retrieved policy and KB content</li>
+<li>Tone and format aligned with organizational communication standards</li>
+<li>Validated for compliance before surfacing to the agent</li>
+</ul>
+<p><strong>Evaluation:</strong> LLM-as-judge scoring on five axes: factuality, policy adherence, tone, completeness, and brevity</p>
+<p><strong>Business value:</strong> Reduces agent cognitive load, improves response consistency, and accelerates resolution.</p>
+<hr />
+<h3 id="compliance-validation">Compliance Validation<a class="headerlink" href="#compliance-validation" title="Permanent link">&para;</a></h3>
+<p>Validates proposed agent responses against organizational policies and healthcare compliance requirements before they are sent.</p>
+<p><strong>Output:</strong>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;violates&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;reason&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Response references specific benefit dollar amounts without referencing the member&#39;s plan-specific EOC document.&quot;</span>
+<span class="p">}</span>
+</code></pre></div></p>
+<p><strong>Business value:</strong> Acts as a final safety layer that catches non-compliant responses before they reach the member.</p>
+<hr />
+<h2 id="rag-framework">RAG Framework<a class="headerlink" href="#rag-framework" title="Permanent link">&para;</a></h2>
+<h3 id="rag-overview">RAG Overview<a class="headerlink" href="#rag-overview" title="Permanent link">&para;</a></h3>
+<p>Retrieval-Augmented Generation (RAG) is the core mechanism by which the platform ensures responses are grounded in verified enterprise knowledge rather than relying solely on what the language model has memorized during training.</p>
+<p>Without RAG, a language model may generate plausible-sounding but factually incorrect responses — particularly dangerous in a healthcare context. With RAG, every response is anchored to specific retrieved document chunks that can be audited and traced.</p>
+<h3 id="retrieval-workflow">Retrieval Workflow<a class="headerlink" href="#retrieval-workflow" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>Agent query / live conversation context
+           ↓
+Query understanding (intent classification)
+           ↓
+Query embedding (dense vector representation)
+           ↓
+Similarity search across knowledge index
+           ↓
+Top-k chunk retrieval
+           ↓
+Relevance reranking
+           ↓
+Context window assembly
+           ↓
+Prompt construction (transcript + context)
+           ↓
+Language model generation
+           ↓
+Compliance validation
+           ↓
+Agent assist output
+</code></pre></div>
+<h3 id="knowledge-sources">Knowledge Sources<a class="headerlink" href="#knowledge-sources" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Content Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Coverage policies</td>
+<td>Benefit limits, prior auth requirements</td>
+</tr>
+<tr>
+<td>Standard operating procedures</td>
+<td>Claims handling, escalation protocols</td>
+</tr>
+<tr>
+<td>FAQs</td>
+<td>Pre-written answers to common member questions</td>
+</tr>
+<tr>
+<td>Knowledge articles</td>
+<td>Detailed benefit and network explanations</td>
+</tr>
+<tr>
+<td>Operational guidelines</td>
+<td>Response standards and compliance rules</td>
+</tr>
+</tbody>
+</table>
+<h3 id="rag-benefits">RAG Benefits<a class="headerlink" href="#rag-benefits" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Benefit</th>
+<th>Impact</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Reduced hallucination</td>
+<td>Responses grounded in retrieved, verified content</td>
+</tr>
+<tr>
+<td>Improved accuracy</td>
+<td>Answers reflect current organizational policy</td>
+</tr>
+<tr>
+<td>Auditability</td>
+<td>Retrieved chunks can be surfaced alongside the response</td>
+</tr>
+<tr>
+<td>Policy currency</td>
+<td>Knowledge index is updated independently of model retraining</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="model-lifecycle">Model Lifecycle<a class="headerlink" href="#model-lifecycle" title="Permanent link">&para;</a></h2>
+<h3 id="training-pipeline">Training Pipeline<a class="headerlink" href="#training-pipeline" title="Permanent link">&para;</a></h3>
+<p>The model lifecycle follows a structured progression from base model to production-ready artifact:</p>
+<div class="highlight"><pre><span></span><code>General-purpose base model
+         ↓
+Supervised Fine-Tuning (SFT)
+(healthcare contact center task data)
+         ↓
+Preference Alignment
+(chosen / rejected response pairs)
+         ↓
+Model merge and quantization
+         ↓
+Evaluation gate
+         ↓
+Model registry (versioned artifact)
+         ↓
+Inference serving
+</code></pre></div>
+<h3 id="preference-alignment">Preference Alignment<a class="headerlink" href="#preference-alignment" title="Permanent link">&para;</a></h3>
+<p>After supervised fine-tuning, the model undergoes preference alignment to improve tone, refusal behavior, policy adherence, and response structure.</p>
+<p><strong>Preference data sources (in order of value):</strong></p>
+<ol>
+<li><strong>Agent-graded pairs</strong> — production outputs where agents accepted or rejected suggestions. Highest signal quality.</li>
+<li><strong>LLM-as-judge pairs</strong> — automated comparison of model outputs against a rubric covering factuality, policy compliance, tone, completeness, and brevity.</li>
+<li><strong>Synthetic pairs</strong> — generated "chosen" and "rejected" examples for scenarios not covered by production data.</li>
+</ol>
+<p><strong>Target preference dataset size:</strong> 1,000 pairs minimum; 3,000–5,000 for strong alignment signal.</p>
+<h3 id="model-registry">Model Registry<a class="headerlink" href="#model-registry" title="Permanent link">&para;</a></h3>
+<p>All model versions are stored in a versioned model registry that tracks:</p>
+<ul>
+<li>Base model identifier and version</li>
+<li>Training dataset version and hash</li>
+<li>Evaluation results at the time of registration</li>
+<li>Deployment status (candidate / shadow / production)</li>
+<li>Lineage linking adapter checkpoints to merged artifacts</li>
+</ul>
+<h3 id="evaluation-gates">Evaluation Gates<a class="headerlink" href="#evaluation-gates" title="Permanent link">&para;</a></h3>
+<p>No model advances to the next stage without passing all evaluation gates:</p>
+<table>
+<thead>
+<tr>
+<th>Gate</th>
+<th>Condition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PHI gate</td>
+<td>Zero PHI detected in model outputs on test set</td>
+</tr>
+<tr>
+<td>Hallucination gate</td>
+<td>Unsupported claim rate &lt; 2% on RAG faithfulness evaluation</td>
+</tr>
+<tr>
+<td>Regression gate</td>
+<td>No task metric drops more than 2 points vs. previous production model</td>
+</tr>
+<tr>
+<td>Compliance gate</td>
+<td>Zero compliance violations on policy test set</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="evaluation-framework">Evaluation Framework<a class="headerlink" href="#evaluation-framework" title="Permanent link">&para;</a></h2>
+<h3 id="evaluation-areas">Evaluation Areas<a class="headerlink" href="#evaluation-areas" title="Permanent link">&para;</a></h3>
+<p>The evaluation framework covers four dimensions that must all be assessed before any deployment decision:</p>
+<table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th>What is measured</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Model quality</td>
+<td>Task-specific accuracy and output quality</td>
+</tr>
+<tr>
+<td>Retrieval quality</td>
+<td>Relevance and coverage of retrieved knowledge chunks</td>
+</tr>
+<tr>
+<td>Safety and compliance</td>
+<td>PHI leakage, hallucination rate, policy violations</td>
+</tr>
+<tr>
+<td>Business effectiveness</td>
+<td>Agent acceptance rate, handle time, resolution outcomes</td>
+</tr>
+</tbody>
+</table>
+<h3 id="task-level-metrics">Task-Level Metrics<a class="headerlink" href="#task-level-metrics" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Task</th>
+<th>Primary Metric</th>
+<th>Secondary Metric</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Call summarization</td>
+<td>ROUGE-L</td>
+<td>LLM-as-judge (5-axis rubric)</td>
+</tr>
+<tr>
+<td>Intent detection</td>
+<td>Macro F1</td>
+<td>Per-intent F1</td>
+</tr>
+<tr>
+<td>Entity extraction</td>
+<td>Span F1 (strict)</td>
+<td>Span F1 (partial)</td>
+</tr>
+<tr>
+<td>Agent response</td>
+<td>LLM-as-judge score</td>
+<td>Agent acceptance rate</td>
+</tr>
+<tr>
+<td>Escalation prediction</td>
+<td>AUROC</td>
+<td>Precision at 80% Recall</td>
+</tr>
+<tr>
+<td>Compliance validation</td>
+<td>Precision</td>
+<td>False negative rate (zero tolerance)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="safety-and-compliance-checks">Safety and Compliance Checks<a class="headerlink" href="#safety-and-compliance-checks" title="Permanent link">&para;</a></h3>
+<p><strong>PHI leakage check:</strong> A rule-based and model-based scan is run over all model outputs in the evaluation set. Any PHI detection is an automatic disqualification — there is no acceptable PHI leakage threshold.</p>
+<p><strong>Hallucination rate:</strong> For each claim in a model response, an automated faithfulness check verifies whether the claim is supported by the retrieved context. The target rate for unsupported claims is below 2%.</p>
+<p><strong>Compliance evaluation:</strong> A held-out set of policy test cases is run through the compliance validation capability. The false negative rate (a violating response classified as compliant) must be zero on the test set.</p>
+<hr />
+<h2 id="deployment-strategy">Deployment Strategy<a class="headerlink" href="#deployment-strategy" title="Permanent link">&para;</a></h2>
+<h3 id="deployment-stages">Deployment Stages<a class="headerlink" href="#deployment-stages" title="Permanent link">&para;</a></h3>
+<p>New model versions follow a staged rollout path before reaching full production:</p>
+<div class="highlight"><pre><span></span><code>Candidate model (passes all eval gates)
+         ↓
+Shadow deployment
+(runs in parallel with production, no agent-facing output)
+         ↓
+Controlled A/B rollout
+(small % of live traffic, agent-facing)
+         ↓
+Full production promotion
+(gated on statistical significance of KPI improvement)
+</code></pre></div>
+<h3 id="validation-techniques">Validation Techniques<a class="headerlink" href="#validation-techniques" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Technique</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Shadow deployment</td>
+<td>Candidate model processes all live traffic in parallel; outputs are logged but not shown to agents</td>
+</tr>
+<tr>
+<td>Controlled A/B testing</td>
+<td>Candidate model serves a small percentage of live traffic (typically 5%) for a minimum two-week evaluation window</td>
+</tr>
+<tr>
+<td>Performance benchmarking</td>
+<td>Automated evaluation harness runs against the held-out test set</td>
+</tr>
+<tr>
+<td>Safety assessment</td>
+<td>PHI, hallucination, and compliance checks run on shadow outputs</td>
+</tr>
+<tr>
+<td>Business impact evaluation</td>
+<td>KPIs (AHT, FCR, acceptance rate, CSAT) tracked and compared against control group</td>
+</tr>
+</tbody>
+</table>
+<h3 id="production-readiness-criteria">Production Readiness Criteria<a class="headerlink" href="#production-readiness-criteria" title="Permanent link">&para;</a></h3>
+<p>A candidate model is approved for full production rollout when:</p>
+<ul>
+<li>All evaluation gates pass (PHI, hallucination, compliance, regression)</li>
+<li>A/B test shows statistically significant improvement on at least two primary KPIs</li>
+<li>Shadow deployment shows zero PHI leaks across the evaluation window</li>
+<li>Agent acceptance rate meets or exceeds the previous production model</li>
+<li>No performance degradation on any existing task metric by more than 2 points</li>
+</ul>
+<hr />
+<h2 id="business-outcomes">Business Outcomes<a class="headerlink" href="#business-outcomes" title="Permanent link">&para;</a></h2>
+<p>Organizations adopting Healthcare Contact Center SLM can realize the following outcomes:</p>
+<table>
+<thead>
+<tr>
+<th>Area</th>
+<th>Benefit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Productivity</strong></td>
+<td>Reduced manual effort on summarization, documentation, and knowledge retrieval</td>
+</tr>
+<tr>
+<td><strong>Service quality</strong></td>
+<td>More consistent member interactions across all agents</td>
+</tr>
+<tr>
+<td><strong>Compliance</strong></td>
+<td>Improved policy adherence with automated validation</td>
+</tr>
+<tr>
+<td><strong>Knowledge access</strong></td>
+<td>Faster, more accurate information retrieval at the point of need</td>
+</tr>
+<tr>
+<td><strong>Agent onboarding</strong></td>
+<td>Accelerated ramp time for new agents through AI-assisted guidance</td>
+</tr>
+<tr>
+<td><strong>Operations</strong></td>
+<td>Reduced average handle time per interaction</td>
+</tr>
+<tr>
+<td><strong>Customer experience</strong></td>
+<td>Improved first-call resolution and member satisfaction</td>
+</tr>
+<tr>
+<td><strong>Intelligence</strong></td>
+<td>Continuous improvement driven by operational feedback</td>
+</tr>
+</tbody>
+</table>
+<p>The platform establishes a continuously improving AI ecosystem — each interaction generates feedback that makes the next model version more accurate, more compliant, and more useful to agents.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "toc.integrate", "content.tabs.link", "content.code.copy"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
