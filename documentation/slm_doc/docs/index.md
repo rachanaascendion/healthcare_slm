@@ -291,6 +291,79 @@ How this platform compares to what currently exists in the market:
 
 ---
 
+## Data Strategy & Enterprise Data Sources
+
+The Healthcare Contact Center SLM leverages a combination of publicly available healthcare datasets, regulatory knowledge sources, enterprise operational systems, and proprietary payer data. This dual-track strategy enables rapid platform validation while providing a clear path to enterprise-scale deployment.
+
+### Data Foundation
+
+| Category | Dataset / Platform | Purpose | Accessibility | Cost Model |
+|-----------|-------------------|----------|--------------|------------|
+| Clinical Foundation | MIMIC-IV Notes | Medical terminology, clinical language understanding | PhysioNet Access | Free (DUA Required) |
+| Clinical Summarization | MIMIC-IV Ext-BHC | Clinical summarization training | PhysioNet Access | Free (DUA Required) |
+| Medical Conversations | MedDialog | Healthcare conversational patterns | Public | Free |
+| Medical Entity Recognition | MedMentions | Medical entity extraction | Public | Free |
+| Clinical NLP | n2c2 / i2b2 Datasets | Clinical entity and relation extraction | Restricted Access | Research License |
+| Clinical QA | MedQA | Medical reasoning evaluation | Public | Free |
+| Clinical QA | PubMedQA | Biomedical question answering evaluation | Public | Free |
+| Claims Intelligence | HCUP National Inpatient Sample (NIS) | Claims reasoning and coding patterns | AHRQ Access | Paid License |
+| Denial Intelligence | CMS CARC Codes | Claim denial interpretation | Public | Free |
+| Remittance Intelligence | CMS RARC Codes | Remittance explanation reasoning | Public | Free |
+| Coverage Policies | CMS NCD/LCD Database | Coverage determination retrieval | Public | Free |
+| Regulatory Knowledge | HIPAA Regulations | Compliance validation | Public | Free |
+| Regulatory Knowledge | CMS Medicare Policies | Policy grounding and retrieval | Public | Free |
+| Plan Documents | SBC Samples | Benefits reasoning validation | Public | Free |
+| Healthcare Foundation Model | Med42-v2 | Healthcare language foundation | Open Weight | Commercial Review Required |
+| Evaluation | Golden Claims Dataset | Claims intelligence validation | Internal | Enterprise Owned |
+
+### Enterprise Production Data Sources
+
+| Category | Enterprise Platform | Purpose | Typical Cost Model |
+|-----------|-------------------|----------|-------------------|
+| Electronic Health Records | Epic | Clinical notes and encounter data | Enterprise License ($500K+ annually) |
+| Electronic Health Records | Oracle Cerner | Clinical documentation and records | Enterprise License |
+| Electronic Health Records | Athenahealth | Ambulatory clinical workflows | Enterprise License |
+| Claims Administration | Facets | Claims processing and adjudication | Enterprise License |
+| Claims Administration | QNXT | Claims and member management | Enterprise License |
+| Claims Administration | HealthRules | Benefits and claims processing | Enterprise License |
+| Claims Administration | TriZetto | Enterprise payer operations | Enterprise License |
+| Contact Center Platform | Genesys Cloud CX | Call transcripts and interaction data | $75–$200+ per agent/month |
+| Contact Center Platform | NICE CXone | Contact center operations and analytics | $100–$250+ per agent/month |
+| Contact Center Platform | Five9 | Cloud contact center platform | $100–$250+ per agent/month |
+| Contact Center Platform | Avaya | Enterprise telephony and contact center | Enterprise License |
+| CRM Platform | Salesforce Health Cloud | Member and case management | $150–$500+ per user/month |
+| CRM Platform | ServiceNow Healthcare | Workflow and case management | $100K–$1M+ annually |
+| CRM Platform | Microsoft Dynamics 365 | Customer and case management | Enterprise License |
+| Quality Monitoring | CallMiner | Call analytics and QA | $50K–$500K+ annually |
+| Quality Monitoring | Verint | Workforce engagement and analytics | $100K–$1M+ annually |
+| Quality Monitoring | Observe.AI | AI-powered QA and coaching | $100K–$500K+ annually |
+| Pharmacy Benefits | CVS Caremark | Formulary and drug coverage | Enterprise Contract |
+| Pharmacy Benefits | Express Scripts | Formulary intelligence | Enterprise Contract |
+| Pharmacy Benefits | OptumRx | Drug coverage information | Enterprise Contract |
+| Knowledge Management | Confluence | SOPs, policies, operational knowledge | Subscription |
+| Knowledge Management | SharePoint | Enterprise documentation | Microsoft License |
+| Knowledge Management | ServiceNow Knowledge Base | Operational guidance and workflows | Enterprise License |
+
+### Data Acquisition Strategy
+
+The Healthcare Contact Center SLM follows a dual-track data strategy that combines publicly available healthcare datasets with enterprise operational data. Public datasets accelerate model validation, healthcare language adaptation, compliance testing, and benchmarking, while enterprise data enables payer-specific intelligence, workflow automation, and production-ready decision support.
+
+#### Public & Regulatory Sources
+
+Healthcare datasets, regulatory content, and medical knowledge repositories provide the foundation for clinical understanding, claims reasoning, policy grounding, retrieval validation, and model evaluation. These sources enable platform development and validation without requiring enterprise PHI during early stages.
+
+#### Enterprise Operational Sources
+
+Production deployments leverage claims data, plan documents, prior authorization records, contact center interactions, CRM cases, and operational knowledge repositories to deliver organization-specific intelligence across member services, claims operations, appeals, and compliance workflows.
+
+### Why This Matters
+
+Most healthcare AI solutions rely on either public medical knowledge or isolated operational systems. The Healthcare Contact Center SLM brings both together—combining clinical understanding, payer operations, regulatory guidance, enterprise knowledge, and human feedback into a single intelligence layer.
+
+!!! success "Strategic Advantage"
+
+    A unified data foundation enables policy-grounded responses, claims intelligence, member-specific benefit reasoning, compliance validation, and continuous learning across healthcare payer operations.
+
 ## Architecture
 
 ### Solution Overview
