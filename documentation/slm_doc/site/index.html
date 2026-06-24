@@ -506,6 +506,95 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#data-strategy-enterprise-data-sources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Strategy &amp; Enterprise Data Sources
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Data Strategy &amp; Enterprise Data Sources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#data-foundation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Foundation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enterprise-production-data-sources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Enterprise Production Data Sources
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-acquisition-strategy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Acquisition Strategy
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Data Acquisition Strategy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#public-regulatory-sources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Public &amp; Regulatory Sources
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enterprise-operational-sources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Enterprise Operational Sources
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#architecture" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1413,6 +1502,322 @@ Improved AI Suggestion
 </tbody>
 </table>
 <hr />
+<h2 id="data-strategy-enterprise-data-sources">Data Strategy &amp; Enterprise Data Sources<a class="headerlink" href="#data-strategy-enterprise-data-sources" title="Permanent link">&para;</a></h2>
+<p>The Healthcare Contact Center SLM leverages a combination of publicly available healthcare datasets, regulatory knowledge sources, enterprise operational systems, and proprietary payer data. This dual-track strategy enables rapid platform validation while providing a clear path to enterprise-scale deployment.</p>
+<h3 id="data-foundation">Data Foundation<a class="headerlink" href="#data-foundation" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Dataset / Platform</th>
+<th>Purpose</th>
+<th>Access Level</th>
+<th>Access Requirements</th>
+<th>Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Clinical Foundation</td>
+<td>MIMIC-IV Notes</td>
+<td>Medical terminology and clinical language understanding</td>
+<td>Restricted Public</td>
+<td>PhysioNet account, CITI Training, DUA acceptance</td>
+<td>https://physionet.org/content/mimiciv</td>
+</tr>
+<tr>
+<td>Clinical Summarization</td>
+<td>MIMIC-IV Ext-BHC</td>
+<td>Clinical summarization training</td>
+<td>Restricted Public</td>
+<td>PhysioNet account, CITI Training, DUA acceptance</td>
+<td>https://physionet.org</td>
+</tr>
+<tr>
+<td>Medical Conversations</td>
+<td>MedDialog</td>
+<td>Healthcare conversational patterns</td>
+<td>Public</td>
+<td>None</td>
+<td>https://github.com/UCSD-AI4H/Medical-Dialogue-System</td>
+</tr>
+<tr>
+<td>Medical Entity Recognition</td>
+<td>MedMentions</td>
+<td>Medical entity extraction</td>
+<td>Public</td>
+<td>None</td>
+<td>https://github.com/chanzuckerberg/MedMentions</td>
+</tr>
+<tr>
+<td>Clinical NLP</td>
+<td>n2c2 Clinical NLP Datasets</td>
+<td>Clinical entity extraction and relation modeling</td>
+<td>Restricted Research</td>
+<td>DUA and approval required</td>
+<td>https://portal.dbmi.hms.harvard.edu/projects/n2c2-nlp</td>
+</tr>
+<tr>
+<td>Clinical NLP</td>
+<td>i2b2 Datasets</td>
+<td>Clinical NLP benchmarking</td>
+<td>Restricted Research</td>
+<td>Registration and DUA</td>
+<td>https://www.i2b2.org</td>
+</tr>
+<tr>
+<td>Clinical QA</td>
+<td>MedQA</td>
+<td>Medical reasoning evaluation</td>
+<td>Public</td>
+<td>None</td>
+<td>https://github.com/jind11/MedQA</td>
+</tr>
+<tr>
+<td>Clinical QA</td>
+<td>PubMedQA</td>
+<td>Biomedical QA evaluation</td>
+<td>Public</td>
+<td>None</td>
+<td>https://pubmedqa.github.io</td>
+</tr>
+<tr>
+<td>Claims Intelligence</td>
+<td>HCUP NIS</td>
+<td>Claims and coding intelligence</td>
+<td>Restricted Commercial</td>
+<td>HCUP DUA and training course</td>
+<td>https://hcup-us.ahrq.gov</td>
+</tr>
+<tr>
+<td>Denial Intelligence</td>
+<td>CMS CARC Codes</td>
+<td>Claim denial interpretation</td>
+<td>Public</td>
+<td>None</td>
+<td>https://www.cms.gov/medicare/coding-billing/healthcare-common-procedure-system</td>
+</tr>
+<tr>
+<td>Remittance Intelligence</td>
+<td>CMS RARC Codes</td>
+<td>Remittance explanation reasoning</td>
+<td>Public</td>
+<td>None</td>
+<td>https://www.cms.gov/medicare/coding-billing</td>
+</tr>
+<tr>
+<td>Coverage Policies</td>
+<td>CMS NCD/LCD Database</td>
+<td>Coverage determination retrieval</td>
+<td>Public</td>
+<td>None</td>
+<td>https://www.cms.gov/medicare-coverage-database</td>
+</tr>
+<tr>
+<td>Regulatory Knowledge</td>
+<td>HIPAA Regulations</td>
+<td>Compliance validation</td>
+<td>Public</td>
+<td>None</td>
+<td>https://www.hhs.gov/hipaa</td>
+</tr>
+<tr>
+<td>Regulatory Knowledge</td>
+<td>CMS Medicare Policies</td>
+<td>Policy grounding and retrieval</td>
+<td>Public</td>
+<td>None</td>
+<td>https://www.cms.gov</td>
+</tr>
+<tr>
+<td>Plan Documents</td>
+<td>SBC Samples</td>
+<td>Benefits reasoning validation</td>
+<td>Public</td>
+<td>None</td>
+<td>https://www.cms.gov/cciio/resources/forms-reports-and-other-resources</td>
+</tr>
+<tr>
+<td>Healthcare Foundation Model</td>
+<td>Med42-v2</td>
+<td>Healthcare language foundation model</td>
+<td>Open Weight</td>
+<td>Commercial license review required</td>
+<td>https://huggingface.co/m42-health/med42-v2-8b</td>
+</tr>
+<tr>
+<td>Evaluation</td>
+<td>Golden Claims Dataset</td>
+<td>Claims intelligence validation</td>
+<td>Internal</td>
+<td>Organization-owned asset</td>
+<td>Internal</td>
+</tr>
+</tbody>
+</table>
+<h3 id="enterprise-production-data-sources">Enterprise Production Data Sources<a class="headerlink" href="#enterprise-production-data-sources" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Enterprise Platform</th>
+<th>Purpose</th>
+<th>Typical Cost Model</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Electronic Health Records</td>
+<td>Epic</td>
+<td>Clinical notes and encounter data</td>
+<td>Enterprise License ($500K+ annually)</td>
+</tr>
+<tr>
+<td>Electronic Health Records</td>
+<td>Oracle Cerner</td>
+<td>Clinical documentation and records</td>
+<td>Enterprise License</td>
+</tr>
+<tr>
+<td>Electronic Health Records</td>
+<td>Athenahealth</td>
+<td>Ambulatory clinical workflows</td>
+<td>Enterprise License</td>
+</tr>
+<tr>
+<td>Claims Administration</td>
+<td>Facets</td>
+<td>Claims processing and adjudication</td>
+<td>Enterprise License</td>
+</tr>
+<tr>
+<td>Claims Administration</td>
+<td>QNXT</td>
+<td>Claims and member management</td>
+<td>Enterprise License</td>
+</tr>
+<tr>
+<td>Claims Administration</td>
+<td>HealthRules</td>
+<td>Benefits and claims processing</td>
+<td>Enterprise License</td>
+</tr>
+<tr>
+<td>Claims Administration</td>
+<td>TriZetto</td>
+<td>Enterprise payer operations</td>
+<td>Enterprise License</td>
+</tr>
+<tr>
+<td>Contact Center Platform</td>
+<td>Genesys Cloud CX</td>
+<td>Call transcripts and interaction data</td>
+<td>$75–$200+ per agent/month</td>
+</tr>
+<tr>
+<td>Contact Center Platform</td>
+<td>NICE CXone</td>
+<td>Contact center operations and analytics</td>
+<td>$100–$250+ per agent/month</td>
+</tr>
+<tr>
+<td>Contact Center Platform</td>
+<td>Five9</td>
+<td>Cloud contact center platform</td>
+<td>$100–$250+ per agent/month</td>
+</tr>
+<tr>
+<td>Contact Center Platform</td>
+<td>Avaya</td>
+<td>Enterprise telephony and contact center</td>
+<td>Enterprise License</td>
+</tr>
+<tr>
+<td>CRM Platform</td>
+<td>Salesforce Health Cloud</td>
+<td>Member and case management</td>
+<td>$150–$500+ per user/month</td>
+</tr>
+<tr>
+<td>CRM Platform</td>
+<td>ServiceNow Healthcare</td>
+<td>Workflow and case management</td>
+<td>$100K–$1M+ annually</td>
+</tr>
+<tr>
+<td>CRM Platform</td>
+<td>Microsoft Dynamics 365</td>
+<td>Customer and case management</td>
+<td>Enterprise License</td>
+</tr>
+<tr>
+<td>Quality Monitoring</td>
+<td>CallMiner</td>
+<td>Call analytics and QA</td>
+<td>$50K–$500K+ annually</td>
+</tr>
+<tr>
+<td>Quality Monitoring</td>
+<td>Verint</td>
+<td>Workforce engagement and analytics</td>
+<td>$100K–$1M+ annually</td>
+</tr>
+<tr>
+<td>Quality Monitoring</td>
+<td>Observe.AI</td>
+<td>AI-powered QA and coaching</td>
+<td>$100K–$500K+ annually</td>
+</tr>
+<tr>
+<td>Pharmacy Benefits</td>
+<td>CVS Caremark</td>
+<td>Formulary and drug coverage</td>
+<td>Enterprise Contract</td>
+</tr>
+<tr>
+<td>Pharmacy Benefits</td>
+<td>Express Scripts</td>
+<td>Formulary intelligence</td>
+<td>Enterprise Contract</td>
+</tr>
+<tr>
+<td>Pharmacy Benefits</td>
+<td>OptumRx</td>
+<td>Drug coverage information</td>
+<td>Enterprise Contract</td>
+</tr>
+<tr>
+<td>Knowledge Management</td>
+<td>Confluence</td>
+<td>SOPs, policies, operational knowledge</td>
+<td>Subscription</td>
+</tr>
+<tr>
+<td>Knowledge Management</td>
+<td>SharePoint</td>
+<td>Enterprise documentation</td>
+<td>Microsoft License</td>
+</tr>
+<tr>
+<td>Knowledge Management</td>
+<td>ServiceNow Knowledge Base</td>
+<td>Operational guidance and workflows</td>
+<td>Enterprise License</td>
+</tr>
+</tbody>
+</table>
+<h3 id="data-acquisition-strategy">Data Acquisition Strategy<a class="headerlink" href="#data-acquisition-strategy" title="Permanent link">&para;</a></h3>
+<p>The Healthcare Contact Center SLM follows a dual-track data strategy that combines publicly available healthcare datasets with enterprise operational data. Public datasets accelerate model validation, healthcare language adaptation, compliance testing, and benchmarking, while enterprise data enables payer-specific intelligence, workflow automation, and production-ready decision support.</p>
+<h4 id="public-regulatory-sources">Public &amp; Regulatory Sources<a class="headerlink" href="#public-regulatory-sources" title="Permanent link">&para;</a></h4>
+<p>Healthcare datasets, regulatory content, and medical knowledge repositories provide the foundation for clinical understanding, claims reasoning, policy grounding, retrieval validation, and model evaluation. These sources enable platform development and validation without requiring enterprise PHI during early stages.</p>
+<h4 id="enterprise-operational-sources">Enterprise Operational Sources<a class="headerlink" href="#enterprise-operational-sources" title="Permanent link">&para;</a></h4>
+<p>Production deployments leverage claims data, plan documents, prior authorization records, contact center interactions, CRM cases, and operational knowledge repositories to deliver organization-specific intelligence across member services, claims operations, appeals, and compliance workflows.</p>
+<h3 id="why-this-matters">Why This Matters<a class="headerlink" href="#why-this-matters" title="Permanent link">&para;</a></h3>
+<p>Most healthcare AI solutions rely on either public medical knowledge or isolated operational systems. The Healthcare Contact Center SLM brings both together—combining clinical understanding, payer operations, regulatory guidance, enterprise knowledge, and human feedback into a single intelligence layer.</p>
+<div class="admonition success">
+<p class="admonition-title">Strategic Advantage</p>
+<p>A unified data foundation enables policy-grounded responses, claims intelligence, member-specific benefit reasoning, compliance validation, and continuous learning across healthcare payer operations.</p>
+</div>
 <h2 id="architecture">Architecture<a class="headerlink" href="#architecture" title="Permanent link">&para;</a></h2>
 <h3 id="solution-overview">Solution Overview<a class="headerlink" href="#solution-overview" title="Permanent link">&para;</a></h3>
 <p>Healthcare Contact Center SLM combines the following capabilities into a unified intelligence platform:</p>

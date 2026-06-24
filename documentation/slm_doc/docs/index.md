@@ -297,24 +297,25 @@ The Healthcare Contact Center SLM leverages a combination of publicly available 
 
 ### Data Foundation
 
-| Category | Dataset / Platform | Purpose | Accessibility | Cost Model |
-|-----------|-------------------|----------|--------------|------------|
-| Clinical Foundation | MIMIC-IV Notes | Medical terminology, clinical language understanding | PhysioNet Access | Free (DUA Required) |
-| Clinical Summarization | MIMIC-IV Ext-BHC | Clinical summarization training | PhysioNet Access | Free (DUA Required) |
-| Medical Conversations | MedDialog | Healthcare conversational patterns | Public | Free |
-| Medical Entity Recognition | MedMentions | Medical entity extraction | Public | Free |
-| Clinical NLP | n2c2 / i2b2 Datasets | Clinical entity and relation extraction | Restricted Access | Research License |
-| Clinical QA | MedQA | Medical reasoning evaluation | Public | Free |
-| Clinical QA | PubMedQA | Biomedical question answering evaluation | Public | Free |
-| Claims Intelligence | HCUP National Inpatient Sample (NIS) | Claims reasoning and coding patterns | AHRQ Access | Paid License |
-| Denial Intelligence | CMS CARC Codes | Claim denial interpretation | Public | Free |
-| Remittance Intelligence | CMS RARC Codes | Remittance explanation reasoning | Public | Free |
-| Coverage Policies | CMS NCD/LCD Database | Coverage determination retrieval | Public | Free |
-| Regulatory Knowledge | HIPAA Regulations | Compliance validation | Public | Free |
-| Regulatory Knowledge | CMS Medicare Policies | Policy grounding and retrieval | Public | Free |
-| Plan Documents | SBC Samples | Benefits reasoning validation | Public | Free |
-| Healthcare Foundation Model | Med42-v2 | Healthcare language foundation | Open Weight | Commercial Review Required |
-| Evaluation | Golden Claims Dataset | Claims intelligence validation | Internal | Enterprise Owned |
+| Category | Dataset / Platform | Purpose | Access Level | Access Requirements | Reference |
+|-----------|-------------------|----------|-------------|--------------------|------------|
+| Clinical Foundation | MIMIC-IV Notes | Medical terminology and clinical language understanding | Restricted Public | PhysioNet account, CITI Training, DUA acceptance | https://physionet.org/content/mimiciv |
+| Clinical Summarization | MIMIC-IV Ext-BHC | Clinical summarization training | Restricted Public | PhysioNet account, CITI Training, DUA acceptance | https://physionet.org |
+| Medical Conversations | MedDialog | Healthcare conversational patterns | Public | None | https://github.com/UCSD-AI4H/Medical-Dialogue-System |
+| Medical Entity Recognition | MedMentions | Medical entity extraction | Public | None | https://github.com/chanzuckerberg/MedMentions |
+| Clinical NLP | n2c2 Clinical NLP Datasets | Clinical entity extraction and relation modeling | Restricted Research | DUA and approval required | https://portal.dbmi.hms.harvard.edu/projects/n2c2-nlp |
+| Clinical NLP | i2b2 Datasets | Clinical NLP benchmarking | Restricted Research | Registration and DUA | https://www.i2b2.org |
+| Clinical QA | MedQA | Medical reasoning evaluation | Public | None | https://github.com/jind11/MedQA |
+| Clinical QA | PubMedQA | Biomedical QA evaluation | Public | None | https://pubmedqa.github.io |
+| Claims Intelligence | HCUP NIS | Claims and coding intelligence | Restricted Commercial | HCUP DUA and training course | https://hcup-us.ahrq.gov |
+| Denial Intelligence | CMS CARC Codes | Claim denial interpretation | Public | None | https://www.cms.gov/medicare/coding-billing/healthcare-common-procedure-system |
+| Remittance Intelligence | CMS RARC Codes | Remittance explanation reasoning | Public | None | https://www.cms.gov/medicare/coding-billing |
+| Coverage Policies | CMS NCD/LCD Database | Coverage determination retrieval | Public | None | https://www.cms.gov/medicare-coverage-database |
+| Regulatory Knowledge | HIPAA Regulations | Compliance validation | Public | None | https://www.hhs.gov/hipaa |
+| Regulatory Knowledge | CMS Medicare Policies | Policy grounding and retrieval | Public | None | https://www.cms.gov |
+| Plan Documents | SBC Samples | Benefits reasoning validation | Public | None | https://www.cms.gov/cciio/resources/forms-reports-and-other-resources |
+| Healthcare Foundation Model | Med42-v2 | Healthcare language foundation model | Open Weight | Commercial license review required | https://huggingface.co/m42-health/med42-v2-8b |
+| Evaluation | Golden Claims Dataset | Claims intelligence validation | Internal | Organization-owned asset | Internal |
 
 ### Enterprise Production Data Sources
 
